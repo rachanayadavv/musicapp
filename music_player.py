@@ -1,7 +1,7 @@
 import os
 import json
 import tkinter as tk
-from tkinter import filedialog
+from tkinter import filedialog, messagebox  # Added messagebox for pop-up dialogs
 from pygame import mixer
 
 # Initialize the mixer
@@ -83,7 +83,8 @@ def add_song():
             update_song_listbox()
             save_song_library()  # Save the updated song library to JSON
         else:
-            update_status("Song already exists")
+            # Show a pop-up message if the song already exists
+            messagebox.showinfo("Song Already Exists", f"'{song_name}' is already in the library.")
 
 # New function to delete a song
 def delete_song():
