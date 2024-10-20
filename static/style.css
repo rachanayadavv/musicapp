@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 2.5em;
+    color: #2edbb9;
+}
+
+.add-song {
+    margin: 20px 0;
+}
+
+.song-list {
+    list-style: none;
+    padding: 0;
+}
+
+.song-item {
+    margin: 15px auto;
+    padding: 15px;
+    border: 1px solid #2edbb9;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.song-item.playing {
+    background-color: #2edbb9;
+}
+
+.album-art {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+button {
+    background-color: #2edbb9;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #818c8a;
+}
+
+.controls {
+    margin: 20px 0;
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 1.2em;
+}

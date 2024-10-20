@@ -1,7 +1,1 @@
-{
-    "Milegi Milegi": "D:\\COLLEGE\\BTECH\\STQA\\music_player\\milegi_milegi.mp3",
-    "Rabata": "D:\\COLLEGE\\BTECH\\STQA\\music_player\\Rabata.mp3",
-    "Counting_stars": "C:/Users/JYOTI YADAV/Downloads/Counting_stars.mp3",
-    "Closer": "C:/Users/JYOTI YADAV/Downloads/Closer.mp3",
-    "Tones and I - Dance Monkey (Lyrics)": "C:/Users/JYOTI YADAV/Downloads/Tones and I - Dance Monkey (Lyrics).mp3"
-}
+{"Closer.mp3": {"path": "static\\Closer.mp3"}, "Shape Of You.mp3": {"path": "static\\Shape Of You.mp3"}, "Counting_stars.mp3": "static\\Counting_stars.mp3", "Raabta  Piano Cover  Arijit Singh  Aakash Desai.mp3": "static\\Raabta  Piano Cover  Arijit Singh  Aakash Desai.mp3"}
