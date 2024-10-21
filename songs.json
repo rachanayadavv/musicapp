@@ -1,1 +1,4 @@
-{"Closer.mp3": {"path": "static\\Closer.mp3"}, "Shape Of You.mp3": {"path": "static\\Shape Of You.mp3"}, "Counting_stars.mp3": "static\\Counting_stars.mp3", "Raabta  Piano Cover  Arijit Singh  Aakash Desai.mp3": "static\\Raabta  Piano Cover  Arijit Singh  Aakash Desai.mp3"}
+{
+    "Closer.mp3": "static\\Closer.mp3",
+    "Shape Of You.mp3": "static\\Shape Of You.mp3"
+}

@@ -83,22 +83,24 @@
         }
 
         function deleteSong(songName) {
-            fetch('/delete_song', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ song_name: songName })
-            })
-            .then(response => response.json())
-            .then(data => {
-                if (data.status === 'success') {
-                    alert(data.message); // Show a popup message
-                    location.reload(); // Reload to see the updated list
-                } else {
-                    updateStatus('Error: ' + data.message);
-                }
-            });
+            if (confirm('Are you sure you want to delete this song?')) {
+                fetch('/delete_song', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ song_name: songName })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        alert(data.message); // Show a popup message
+                        location.reload(); // Reload to see the updated list
+                    } else {
+                        updateStatus('Error: ' + data.message);
+                    }
+                });
+            }
         }
 
         function highlightPlaying(songElementId) {
